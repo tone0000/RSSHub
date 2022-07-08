@@ -1899,13 +1899,6 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.6.3.tgz#68ada76827b0010d0db071f739314fa429943d0a"
   integrity sha512-ymZk3LEC/fsut+/Q5qejp6R9O1rMxz3XaRHDV6kX8MrGAhOSPqVARbDi+EZvInBpw+BnCX3TD240byVkOfQsHg==
 
-"@types/puppeteer@*":
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-5.4.6.tgz#afc438e41dcbc27ca1ba0235ea464a372db2b21c"
-  integrity sha512-98Kghehs7+/GD9b56qryhqdqVCXUTbetTv3PlvDnmFRTHQH0j9DIp1f7rkAW3BAj4U3yoeSEQnKgdW8bDq0Y0Q==
-  dependencies:
-    "@types/node" "*"
-
 "@types/q@^1.5.1":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
@@ -3894,12 +3887,12 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-city-timezones@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/city-timezones/-/city-timezones-1.2.0.tgz#cfd9c9d613c82dc315d2a78d2db7e6bca8109572"
-  integrity sha512-/69UkTbg9MEsYfiEIUqkKFZBRzuuw+5WLHgybeGaR/E28/w0hLy87Q4QHa0GLStp/EOxXpq5zYvDIu9xcs+bKw==
+city-timezones@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/city-timezones/-/city-timezones-1.2.1.tgz#7087d1719dd599f1e88ebc2f7fb96e091201d318"
+  integrity sha512-hruuB611QFoUFMsan7xd9B2VPMrA8XC716O/999WW34kmaJUT1hxKF2W8TSXAWkhSqgvbu70DjcDv7/wpM6vow==
   dependencies:
-    lodash ">=4.17.12"
+    lodash "^4.17.21"
 
 cjs-module-lexer@^1.0.0:
   version "1.2.2"
@@ -9111,7 +9104,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
-lodash@>=4.17.12, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.17.5:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.17.5:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -11439,13 +11432,12 @@ puppeteer-extra-plugin@^3.2.1:
     debug "^4.1.1"
     merge-deep "^3.0.1"
 
-puppeteer-extra@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-extra/-/puppeteer-extra-3.3.1.tgz#98c1610314fad286887fe81e142db428d03e44cb"
-  integrity sha512-ySlwelCtymixsFY7b6S/5ua9u1Q0SX6bJcbodh1kZgQiySC+yjPa2F8QoC+9rco7mINFkm2V8wupSqyI3ITT2g==
+puppeteer-extra@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra/-/puppeteer-extra-3.3.3.tgz#025d5474a41d3da219b58e6df837e2dbbc1b5932"
+  integrity sha512-0TiAB617OQr29YQBltLu1q029/vc0s752NvAEXvXHiHgHnxwaNRku+nMMZFIjNEObNwBsk8dx/l+sXbE6peozA==
   dependencies:
     "@types/debug" "^4.1.0"
-    "@types/puppeteer" "*"
     debug "^4.1.1"
     deepmerge "^4.2.2"
 
