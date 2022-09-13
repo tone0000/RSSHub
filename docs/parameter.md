@@ -46,6 +46,8 @@ filter 支持正则表达式。由于正则部分特性可被利用于 DoS (ReDO
 
 -   `filter_author`: 过滤作者
 
+-   `filter_category`: 过滤分类
+
 -   `filter_time`: 过滤时间，仅支持数字，单位为秒。返回指定时间范围内的内容。如果条目没有输出`pubDate`或者格式不正确将不会被过滤
 
 举例 1: `https://rsshub.app/bilibili/fav/2267573/801952073?filter=编曲|摄影`
@@ -61,6 +63,8 @@ filter 支持正则表达式。由于正则部分特性可被利用于 DoS (ReDO
 
 -   `filterout_author`: 过滤作者
 
+-   `filterout_category`: 过滤分类
+
 举例: `https://rsshub.app/bilibili/fav/2267573/801952073?filterout=编曲|摄影`
 
 `filter_case_sensitive` 过滤是否区分大小写，`filter` 和 `filterout`同时适用
@@ -74,6 +78,12 @@ filter 支持正则表达式。由于正则部分特性可被利用于 DoS (ReDO
 可以使用 `limit` 参数限制最大条数，主要用于排行榜类 RSS
 
 举例: bilibili 排行榜前 10 <https://rsshub.app/bilibili/ranking/0/3?limit=10>
+
+## 排序结果
+
+通过 `sorted` 参数控制是否对输出的条目按照发布时间进行排序，这对一些会把部分新闻等置顶的源比较有用（如信息发布网）。默认为 `true` 即进行排序。
+
+举例：不重新排序南京大学本科生院教学信息网的公告通知：<https://rsshub.app/nju/jw/ggtz?sorted=false>
 
 ## 全文输出
 

@@ -48,6 +48,8 @@ Set `filter` to include the content
 
 -   `filter_author`: filter `author` only
 
+-   `filter_category`: filter `category` only
+
 -   `filter_time`: filter `pubDate`, in seconds, return specified time range. Item without `pubDate` will not be filtered.
 
 E.g. [https://rsshub.app/dribbble/popular?filter=Blue|Yellow|Black](https://rsshub.app/dribbble/popular?filter=Blue|Yellow|Black)
@@ -62,6 +64,8 @@ Set `filterout` to exclude unwanted content.
 
 -   `filterout_author`: filter `author` only
 
+-   `filterout_category`: filter `category` only
+
 E.g. [https://rsshub.app/dribbble/popular?filterout=Blue|Yellow|Black](https://rsshub.app/dribbble/popular?filterout=Blue|Yellow|Black)
 
 Set `filter_case_sensitive` to determine whether the filtering keywords should be case sensitive. The parameter would apply to both `filter` and `filterout`.
@@ -75,6 +79,12 @@ E.g. [https://rsshub.app/dribbble/popular?filter=BluE|yeLLow|BlaCK&filter_case_s
 Set `limit` to limit the number of articles in the feed.
 
 E.g. Dribbble Popular Top 10 [https://rsshub.app/dribbble/popular?limit=10](https://rsshub.app/dribbble/popular?limit=10)
+
+## Sorted
+
+Set `sorted` to control whether to sort the output by the publish date (`pubDate`). This is useful for some feeds that pin some entries at the top. Default to `true` i.e. the output is sorted.
+
+E.g. NJU Undergraduate Bulletin Board <https://rsshub.app/nju/jw/ggtz?sorted=false>
 
 ## Fulltext
 
