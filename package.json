@@ -126,7 +126,7 @@
     "puppeteer": "18.2.1",
     "puppeteer-extra": "3.3.4",
     "puppeteer-extra-plugin-stealth": "2.11.1",
-    "query-string": "7.1.1",
+    "query-string": "8.1.0",
     "rand-user-agent": "1.0.87",
     "re2": "1.17.7",
     "require-all": "3.0.0",
